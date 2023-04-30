@@ -37,7 +37,7 @@
 </br>
 
 ## 👀 시각화된 프로젝트 구조
-<center><img width="600" height="1600" src="https://i.imgur.com/ARX3ccH.png"></center>
+<center><img width="300" height="1600" src="https://i.imgur.com/ARX3ccH.png"></center>
 
 </br>
 
