@@ -7,6 +7,7 @@
 import Foundation
 
 func start() {
+    print("게임을 실행합니다.")
     inputUserMenu()
 }
 
@@ -69,8 +70,9 @@ func inputUserGuessingNumbers() -> [Int] {
         print("""
         숫자 3개를 띄어쓰기로 구분하여 입력해주세요.
         중복 숫자는 허용하지 않습니다.
-        """)
-        print("입력 :", terminator: " ")
+        입력 :
+        """, terminator: " ")
+       
         
         guard let userGuessingNumbers = readLine() else {
             print("입력이 잘못되었습니다.")
@@ -96,7 +98,7 @@ func verifyUserGuessingNumbers(with userGuessingNumbers: String) -> [Int] {
     
     for component in components {
         guard let guessingNumber = Int(component),
-              guessingNumber > 0,
+              0 < guessingNumber,
               guessingNumber < 10,
               !validUserGuessingNumbers.contains(guessingNumber)
         else { return [] }
@@ -120,7 +122,22 @@ func checkBallCount(matching matchCount: Int, strike strikeCount: Int) -> Int {
 }
 
 func printMessages(with userRandomNumbers: [Int], _ strikeCount: Int, _ ballCount: Int, _ remainCount: Int) -> Bool {
+    print("\n============================")
     print("\(strikeCount) 스트라이크, \(ballCount) 볼")
+    for _ in 0..<strikeCount {
+        print("💛 ", terminator: "")
+    }
+    for _ in 0..<3 - strikeCount {
+        print("🤍 ", terminator: "")
+    }
+    print("")
+    for _ in 0..<ballCount {
+        print("💚 ", terminator: "")
+    }
+    for _ in 0..<3 - ballCount {
+        print("🤍 ", terminator: "")
+    }
+    print("\n============================\n")
     
     if strikeCount != 3 && remainCount == 0 {
         print("컴퓨터 승리...!")
