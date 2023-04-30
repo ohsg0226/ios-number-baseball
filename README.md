@@ -102,11 +102,11 @@
 </br>
 
 ## 📚 참고 링크
-[🍎Apple Docs: API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
-[🍎Apple Docs: Optionals](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Optionals)
-[🍎Apple Docs: nil](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#nil)
-[🍎Apple Docs: Optional Binding](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Optional-Binding)
-[🍎Apple Docs: Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/)
+- [🍎Apple Docs: API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
+- [🍎Apple Docs: Optionals](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Optionals)
+- [🍎Apple Docs: nil](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#nil)
+- [🍎Apple Docs: Optional Binding](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Optional-Binding)
+- [🍎Apple Docs: Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/)
 
 </br>
 
